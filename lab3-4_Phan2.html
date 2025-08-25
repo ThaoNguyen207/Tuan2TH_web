@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio cá nhân</title>
+  <style>
+        .project {
+      background: white;
+      padding: 20px ;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      
+    }
+    .project:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    .project img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+    .project h4 {
+      margin: 10px 0;
+      font-size: 18px;
+      color: #1e90ff;
+    }
+    .project p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 8px 15px;
+      background: linear-gradient(45deg, #1e90ff, #00bfff);
+      color: white;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+      
+    }
+    .btn:hover {
+      background: linear-gradient(45deg, #00bfff, #1e90ff);
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Ảnh + mô tả -->
+  <h2>Ảnh đại diện</h2>
+  <figure>
+    <img src="./minhchung/avatar.jpg" alt="Ảnh đại diện">
+    <figcaption>Nguyễn Hồ Thảo NguyênNguyên - Hệ Thống Thông Tin </figcaption>
+  </figure>
+
+  <!-- Thư viện ảnh -->
+  <h2>Thư viện ảnh</h2>
+  <div class="gallery">
+    <img src="./minhchung/anh1 (1).jpg" alt="Ảnh 1">
+    <img src="./minhchung/anh1 (2).jpg" alt="Ảnh 2">
+    <img src="./minhchung/anh1 (3).jpg" alt="Ảnh 3">
+    <img src="./minhchung/anh1 (4).jpg" alt="Ảnh 4">
+  </div>
+
+  <!-- Video -->
+  <h2>Video giới thiệu</h2>
+  <div class="video">
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0&rel=0&modestbranding=1" 
+            title="YouTube video" 
+            allowfullscreen></iframe>
+  </div>
+
+  <!-- Audio -->
+  <h2>Bản nhạc yêu thích</h2>
+  <div class="audio">
+    <h3>Nhạc chill</h3>
+    <audio controls>
+      <source src="./minhchung/video.htm" type="audio/mpeg">
+      Trình duyệt không hỗ trợ phát nhạc.
+    </audio>
+  </div>
+
+  <!-- Portfolio dự án -->
+  <h2>Dự án cá nhân</h2>
+  <div class="projects">
+    <div class="project">
+      <img src="./minhchung/duan1.jpg" alt="Dự án 1">
+      <h4>Website bán hàng</h4>
+      <p></p>
+    </div>
+    <div class="project">
+      <img src="./minhchung/duan2.jpg" alt="Dự án 2">
+      <h4>Website bán hàng </h4>
+      <p>Bean WineWine </p>
+    </div>
+    <div class="project">
+      <img src="./minhchung/duan3.jpg" alt="Dự án 3">
+      <h4>Website bán hàng </h4>
+      <p>TStudent BookBook.</p>
+    </div>
+  </div>
+
+</body>
+</html>
